@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write .",
     "test": "jest",
-    "generate:api": "openapi-generator-cli generate -i ../backend/api.yaml -g typescript-axios -o src/api"
+    "generate:api": "openapi-generator-cli generate -i ../usj-backend/usj-backend/src/main/resources/openapi.yml -g typescript-axios -o src/api"
   },
   "dependencies": {
     "@openapitools/openapi-generator-cli": "^2.20.2",
