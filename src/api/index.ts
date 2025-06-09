@@ -1,5 +1,5 @@
 /* tslint:disable */
-/* eslint-disable */
+
 /**
  * USJ Matching App API
  * USJでの出会いとマッチングを支援するアプリケーションのAPI
@@ -12,7 +12,6 @@
  * Do not edit the class manually.
  */
 
-
-export * from "./api";
-export * from "./configuration";
-
+export * from './api';
+export * from './configuration';
+export * from './client';
