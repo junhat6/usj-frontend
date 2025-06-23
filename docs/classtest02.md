@@ -1,0 +1,19 @@
+# クラス図例
+
+```plantuml
+@startuml
+class User {
+  +id: Long
+  +name: String
+  +email: String
+  +register(): void
+}
+class Room {
+  +id: Long
+  +title: String
+  +maxUsers: Int
+  +create(): void
+}
+User "1" -- "*" Room : joins
+@enduml
+```
